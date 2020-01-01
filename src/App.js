@@ -1,9 +1,11 @@
 import React from 'react';
+import NeonButton from "./components/NeonButton";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Calculator</h1>
+      <NeonButton name={"Submit"}/>
     </div>
   );
 }
